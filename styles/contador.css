@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    color: pink;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+#valor{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: azure;
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: azure;
+    background-color: pink;
+}
