@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador</title>
-    <link rel="stylesheet" href="/styles/contador.css">
+    <title>Contador y temporizador</title>
+    <link rel="stylesheet" href="./styles/contador.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+    <script src="./src/contador.js" async defer></script>
+    <script src="./src/temporizador.js" async defer></script>
 </head>
 <body>
     <div class="container">
@@ -21,17 +24,12 @@
         </div><br><br><br>
 
     </div>
-    <!--<span id="reloj"></span>
-    <br><br>
-<div class="temporizador">
-    <input class="input" id="segundos" type="number" value="number" placeholder="segundos">
-    <label class="label"></label>
-    <button id="iniciar">Iniciar</button>
-
-</div>-->
+    <h1>Temporizador</h1>
+    <input type="number" id="inputTime" class="form-control" placeholder="Tiempo en segundos">
+    <button class="btn btn-primary" id ="inicio" onclick="startTimer()">Iniciar</button>
+    <h3 id="timer">0</h3>
+</div>
 
 
-    <script src="/contador.js"></script>
-    <script src="/temporizador.js"></script>
 </body>
 </html>
